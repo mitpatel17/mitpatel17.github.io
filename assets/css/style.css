@@ -70,7 +70,7 @@ h1, h2, h3, h4, h5, h6 {
 #header h2 {
   font-size: 24px;
   margin-top: 20px;
-  color: rgba(0, 0, 0, 0.8);
+  color: #000000;
 }
 #header h2 span {
   color: #000000;
@@ -292,10 +292,11 @@ section.section-show {
   top: 100px;
   bottom: auto;
   opacity: 1;
+  background-color: #ffffff;
   padding-bottom: 45px;
 }
 section .container {
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(246, 245, 245, 0.9);
   padding: 30px;
 }
 @media (max-width: 768px) {
@@ -315,7 +316,7 @@ section .container {
   margin: 0 0 20px 0;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #aaaaaa;
+  color: #000000;
   font-family: "Poppins", sans-serif;
 }
 .section-title h2::after {
@@ -333,7 +334,7 @@ section .container {
   font-weight: 700;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #fff;
+  color: #000000;
 }
 
 /*--------------------------------------------------------------
@@ -377,7 +378,7 @@ section .container {
   width: 100%;
   position: relative;
   text-align: center;
-  background: rgba(255, 255, 255, 0.08);
+  background: rgba(0, 0, 0, 0.08);
 }
 .counts .count-box i {
   position: absolute;
@@ -385,7 +386,7 @@ section .container {
   left: 50%;
   transform: translateX(-50%);
   font-size: 24px;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.1);
   padding: 12px;
   color: #18d26e;
   border-radius: 50px;
@@ -395,7 +396,7 @@ section .container {
   font-size: 36px;
   display: block;
   font-weight: 600;
-  color: #fff;
+  color: #000000;
 }
 .counts .count-box p {
   padding: 0;
@@ -420,14 +421,14 @@ section .container {
   display: block;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
-  color: #fff;
+  color: #000000;
 }
 .skills .progress .skill .val {
   float: right;
   font-style: normal;
 }
 .skills .progress-bar-wrap {
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(3, 3, 3, 0.2);
 }
 .skills .progress-bar {
   width: 1px;
